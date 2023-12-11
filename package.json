@@ -7,8 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
     "build": "npm install && npm install --prefix frontend && npm run build --prefix frontend",
-    "server": "node server.js --prefix backend",
-    "client": "npm run dev --prefix frontend",
+    "server": "nodemon backend/server.js",
+    "client": "npm start --prefix frontend",
     "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "author": "WEB422 Seneca College",

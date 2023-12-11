@@ -1,5 +1,5 @@
 import Navigation from "@/components/Navigation";
-import AllProducts from "@/components/allProducts";
+import AllProducts from "@/pages/allProducts";
 export default function Home() {
   return (
     <>
