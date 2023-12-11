@@ -1,0 +1,61 @@
+.flexIn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 15px;
+  border: 2px solid rgb(21, 18, 18);
+  z-index: 1;
+}
+
+.flexIn button {
+  font-size: large;
+  border-radius: 20px;
+  padding: 5px 15px;
+  cursor: pointer;
+}
+
+webhighlights-notification {
+  display: none;
+}
+
+.introPara {
+  text-align: center;
+  font-size: xx-large;
+  font-family: "Times New Roman", Times, serif;
+  background-color: rgb(141, 174, 174);
+}
+
+.imagesGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 12px;
+  row-gap: 12px;
+  align-items: center;
+  justify-items: center;
+}
+
+.gridimg {
+  width: 200px;
+  cursor: pointer;
+}
+
+.backLink {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.backLink a {
+  text-decoration: none;
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.addtocart {
+  display: block;
+  cursor: pointer;
+}
+.buttonAndImg {
+  display: flex;
+  flex-direction: column;
+  row-gap: 12px;
+}
